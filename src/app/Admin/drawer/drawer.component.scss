@@ -1,0 +1,34 @@
+.Drawer {
+  width: 280px;
+  height: 100vh;
+  border-right: 1px solid #eee;
+  position: fixed;
+  .Header {
+    height: 65px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 200px;
+    }
+  }
+  .Navigation {
+    overflow-y: auto;
+    height: calc(100vh - 65px);
+    .Item {
+      height: 50px;
+      display: flex;
+      align-items: center;
+      padding: 0 15px;
+      color: #737373;
+      i {
+        padding: 0 10px;
+      }
+    }
+    .Item:hover {
+      background-color: #eee;
+      cursor: pointer;
+    }
+  }
+}

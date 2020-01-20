@@ -1,0 +1,11 @@
+<div class="Drawer">
+    <div class="Header">
+        <img src="../../../assets/rentlylogo.png" alt="logo">
+    </div>
+    <div class="Navigation">
+        <div class="Item" *ngFor="let value of Navigation" routerLink="{{value.path}}">
+            <i class="{{value.icon}}"></i>
+            <span>{{value.name}}</span>
+        </div>
+    </div>
+</div>

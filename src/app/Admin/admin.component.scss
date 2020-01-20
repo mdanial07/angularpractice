@@ -1,0 +1,9 @@
+.Children {
+  position: fixed;
+  width: calc(100% - 280px);
+  left: 280px;
+  overflow-y: auto;
+  height: calc(100vh - 65px);
+  top: 65px;
+  padding: 10px;
+}
